@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas PDF</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compactar em RAR</h1>
+        <form id="rarForm" method="POST" enctype="multipart/form-data" action="/create_archive">
+            <input type="file" name="files" multiple accept=".pdf">
+            <button type="submit">Compactar em RAR</button>
+        </form>
+        <div class="section-divider"></div>
+        
+        <h1>Converter Word para PDF</h1>
+        <form id="docxForm" method="POST" enctype="multipart/form-data" action="/convert_docx">
+            <input type="file" name="file" accept=".docx">
+            <button type="submit">Converter de docx para PDF</button>
+        </form>
+        <div class="section-divider"></div>
+
+        <h1>Converter PDF para Word</h1>
+        <form id="pdfToDocxForm" method="POST" enctype="multipart/form-data" action="/convert_pdf">
+            <input type="file" name="file" accept=".pdf">
+            <button type="submit">Converter de PDF para DOCX</button>
+        </form>
+        <div class="section-divider"></div>
+
+        <h1>Mesclar PDFs</h1>
+        <form id="mergePdfsForm" method="POST" enctype="multipart/form-data" action="/merge_pdfs">
+            <input type="file" name="files" multiple accept=".pdf">
+            <button type="submit">Mesclar PDFs</button>
+        </form>
+        <div class="section-divider"></div>
+    </div>
+
+    <!--JavaScript -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
