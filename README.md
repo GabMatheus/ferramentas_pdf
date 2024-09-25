@@ -51,6 +51,6 @@ Faça upload de arquivos PDF para as diferentes ferramentas disponíveis (conver
 
 Irei hospedar para se tornar um aplicativo distribuível para os usuários da empresa que trabalho, existem soluções online para o problema, porém existem arquivos importantes ou sigilosos que precisam de uma atenção especial e não podem vazar por falhas em sites de terceiros, com isso nós mesmos organizaremos nossas aplicações e arquivos para modificações.
 
-Outro aspecto a se considerar é que pretendo implementar mais algumas soluções para tratar os arquivos PDF, como converter imagens em PDF por exemplo. Possíveis modificações no Front end também serão feitas para melhorar visualmente e esteticamente a experiência dos usuários.
+Outro aspecto a se considerar é que pretendo implementar mais algumas soluções para tratar os arquivos PDF, como converter imagens em PDF por exemplo. Possíveis modificações no Front end também poderão ser feitas para melhorar visualmente e esteticamente a experiência dos usuários.
 
-Qualquer dica e sugestão entrar em contato pelo e-mail: gab_matheus@hotmil.com
+Qualquer dica e sugestão entrar em contato pelo e-mail: gab_matheus@hotmail.com
